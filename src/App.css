@@ -58,6 +58,7 @@
   display: flex;
   align-items: center;
   flex-grow: 1;
+  flex-direction: column;
 }
 #card-img img{
   width: 100%;
