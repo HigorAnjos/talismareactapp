@@ -1,6 +1,7 @@
 import React from 'react';
 import { Carousel, Button } from 'react-bootstrap';
 import slide2 from '../images/Rede-de-protecao.jpg';
+import slide1 from '../images/slide-rede-ap.jpg';
 
 function Carrousel() {
   return (
@@ -16,6 +17,18 @@ function Carrousel() {
           </div>
         </div>
         <Carousel variant="dark">
+          <Carousel.Item>
+            <div id="bg-dark">
+              <img
+                id="carrosel-img"
+                className="d-block w-100"
+                width="100%"
+                height="700"
+                src={slide1}
+                alt="Second slide"
+              />
+            </div>
+          </Carousel.Item>
           <Carousel.Item>
             <div id="bg-dark">
               <img
