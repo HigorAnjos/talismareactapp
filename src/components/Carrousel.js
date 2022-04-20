@@ -1,34 +1,31 @@
 import React from 'react';
 import { Carousel } from 'react-bootstrap';
-import slide3 from '../images/slide1.jpg';
-import slide2 from '../images/slide2.jpg';
-import slide1 from '../images/slide3.png';
+import slide2 from '../images/Rede-de-protecao.jpg';
 
 function Carrousel() {
   return (
-    <Carousel variant="dark">
-      <Carousel.Item>
-        <img className="d-block w-100" src={slide1} alt="First slide" />
-        <Carousel.Caption>
-          <h5>First slide label</h5>
-          <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
-        </Carousel.Caption>
-      </Carousel.Item>
-      <Carousel.Item>
-        <img className="d-block w-100" src={slide2} alt="Second slide" />
-        <Carousel.Caption>
-          <h5>Second slide label</h5>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-        </Carousel.Caption>
-      </Carousel.Item>
-      <Carousel.Item>
-        <img className="d-block w-100" src={slide3} alt="Third slide" />
-        <Carousel.Caption>
-          <h5>Third slide label</h5>
-          <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
-        </Carousel.Caption>
-      </Carousel.Item>
-    </Carousel>
+    <div>
+      <div id="mk-pai">
+        <div id="mk">
+          <h1>Redes de Proteção</h1>
+          <p>Proporcionar a sua segurança e de seus familiares é nosso compromisso.</p>
+        </div>
+        <Carousel variant="dark">
+          <Carousel.Item>
+            <div id="bg-dark">
+              <img
+                id="carrosel-img"
+                className="d-block w-100"
+                width="100%"
+                height="700"
+                src={slide2}
+                alt="Second slide"
+              />
+            </div>
+          </Carousel.Item>
+        </Carousel>
+      </div>
+    </div>
   );
 }
 
