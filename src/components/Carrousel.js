@@ -1,8 +1,8 @@
 import React from 'react';
 import { Carousel } from 'react-bootstrap';
-import slide1 from '../images/tela-rede.png';
-import slide2 from '../images/redes-protecao-sacadas.jpg';
-import slide3 from '../images/rede_para_janelas.jpg';
+import slide3 from '../images/slide1.jpg';
+import slide2 from '../images/slide2.jpg';
+import slide1 from '../images/slide3.png';
 
 function Carrousel() {
   return (
