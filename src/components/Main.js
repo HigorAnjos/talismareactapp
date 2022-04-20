@@ -1,8 +1,8 @@
-// import React from 'react';
-// import CardServices from './CardServices';
+import React from 'react';
+import Services from './Services';
 
 function Main() {
-  return '<CardServices />';
+  return <Services />;
 }
 
 export default Main;

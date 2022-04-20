@@ -23,3 +23,15 @@
 #mk h1 {
   font-size: 5em;
 }
+
+#services-title h1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 30px;
+}
+
+#coverd-card-services {
+  display: flex;
+  
+}
