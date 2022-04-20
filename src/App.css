@@ -50,6 +50,7 @@
 #card-text {
   margin: 0 30px;
   width: 600px;
+  min-width: 400px;
   flex-grow: 2;
 }
 
