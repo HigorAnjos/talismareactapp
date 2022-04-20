@@ -1,5 +1,5 @@
 import React from 'react';
-import { Carousel } from 'react-bootstrap';
+import { Carousel, Button } from 'react-bootstrap';
 import slide2 from '../images/Rede-de-protecao.jpg';
 
 function Carrousel() {
@@ -8,7 +8,12 @@ function Carrousel() {
       <div id="mk-pai">
         <div id="mk">
           <h1>Redes de Proteção</h1>
-          <p>Proporcionar a sua segurança e de seus familiares é nosso compromisso.</p>
+          <h4>Proporcionar a sua segurança e de seus familiares é nosso compromisso.</h4>
+          <div>
+            <Button variant="success">
+              <i className="fa-brands fa-whatsapp"></i> Solicite seu orçamento
+            </Button>
+          </div>
         </div>
         <Carousel variant="dark">
           <Carousel.Item>
