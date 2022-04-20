@@ -1,5 +1,5 @@
 import React from 'react';
-import { Container, Row, Col } from 'react-bootstrap';
+import { Container, Button, Row, Col } from 'react-bootstrap';
 import pcina from '../images/pcina-700.jpg';
 
 function Services() {
@@ -22,6 +22,11 @@ function Services() {
             Cover Net e administrações confiáveis e de qualidade, contate os especialistas da Nick Redes, temos custos
             implacáveis e assistência fenomenal.
           </p>
+          <div>
+            <Button variant="success">
+              <i className="fa-brands fa-whatsapp"></i> Solicite seu orçamento
+            </Button>
+          </div>
         </div>
         <div id="card-img">
           <img src={pcina} alt="pscina com tela" width="600" height="450" />
