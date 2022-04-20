@@ -19,11 +19,12 @@ function Services() {
         <div id="card-text">
           <h1>Rede na piscina</h1>
           <p>
-            A Nick Redes de Proteção vem trabalhando com telas defensivas e redes defensivas, garantindo e oferecendo
-            aos seus clientes solidez e alta inovação na produção de seu material e envolvimento com a situação,
-            incluindo mão de obra própria. específico, qualificado e preparado, quando você realmente deseja uma Pool
-            Cover Net e administrações confiáveis e de qualidade, contate os especialistas da Nick Redes, temos custos
-            implacáveis e assistência fenomenal.
+            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+            industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and
+            scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into
+            electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of
+            Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like
+            Aldus PageMaker including versions of Lorem Ipsum
           </p>
           <div>
             <Button variant="success">
@@ -42,7 +43,14 @@ function Services() {
         </div>
         <div id="card-text">
           <h1>Redes para apartamento</h1>
-          <p>Trabalhamos com o melhor item de Goiânia para garantir a você total segurança e satisfação.</p>
+          <p>
+            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+            industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and
+            scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into
+            electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of
+            Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like
+            Aldus PageMaker including versions of Lorem Ipsum
+          </p>
           <div>
             <Button variant="success">
               <i className="fa-brands fa-whatsapp"></i> Solicite seu orçamento
@@ -55,9 +63,12 @@ function Services() {
         <div id="card-text">
           <h1>Redes para quadras</h1>
           <p>
-            A Nick Redes de Proteção vem trabalhando com telas defensivas e redes defensivas, garantindo e oferecendo
-            aos seus clientes solidez e alta inovação na produção de seu material e envolvimento com a situação,
-            incluindo mão de obra própria.
+            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+            industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and
+            scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into
+            electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of
+            Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like
+            Aldus PageMaker including versions of Lorem Ipsum
           </p>
           <div>
             <Button variant="success">
