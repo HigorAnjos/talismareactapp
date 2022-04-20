@@ -1,6 +1,6 @@
 import React from 'react';
 import { Container, Button, Row, Col } from 'react-bootstrap';
-import pcina from '../images/pcina-700.jpg';
+import pcina from '../images/pcina.jpg';
 import apartment from '../images/telaAp.jpeg';
 import sport from '../images/quadra.jpeg';
 
@@ -33,13 +33,13 @@ function Services() {
           </div>
         </div>
         <div id="card-img">
-          <img src={pcina} alt="pscina com tela" width="600" height="450" />
+          <img src={pcina} alt="pscina com tela" />
         </div>
       </div>
 
       <div id="coverd-card-services">
         <div id="card-img">
-          <img src={apartment} alt="pscina com tela" width="600" height="450" />
+          <img src={apartment} alt="pscina com tela" />
         </div>
         <div id="card-text">
           <h1>Redes para apartamento</h1>
@@ -77,7 +77,7 @@ function Services() {
           </div>
         </div>
         <div id="card-img">
-          <img src={sport} alt="pscina com tela" width="600" height="450" />
+          <img src={sport} alt="pscina com tela" />
         </div>
       </div>
     </>
